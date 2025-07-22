@@ -71,3 +71,8 @@
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
 }
+
+.user-component__subtitle--more {
+    color: var(--grey);
+    margin-top: 12px;
+}

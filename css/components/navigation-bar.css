@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+.navigation-bar__button a {
+	color: #2E363E;
+	text-decoration: none;
+}
+
 .navigation-bar__link {
   position: relative;
 }
@@ -35,3 +40,4 @@
     top: -10px;
     right: -10px;
 }
+
