@@ -1,0 +1,37 @@
+.navigation-bar {
+  background-color: #f9f9fa;
+  padding: 28px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navigation-bar__list {
+  display: flex;
+}
+
+.navigation-bar__button {
+  width: 25%;
+  text-align: center;
+}
+
+.navigation-bar__link {
+  position: relative;
+}
+
+.navigation-bar__chat-notification {
+  position: absolute;
+  top: -10px;
+  right: -14px;
+}
+
+.navigation-bar__more-notification {
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}

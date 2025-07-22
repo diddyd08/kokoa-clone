@@ -1,0 +1,55 @@
+.welcome-header {
+  margin: 88px 0px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.welcome-header__title {
+  margin-bottom: 28px;
+  font-size: 24px;
+}
+
+.welcome-header__text {
+  opacity: 0.5;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 28px;
+}
+
+#login-form input {
+  padding: 24px 0px;
+  border: none;
+  font-size: 16px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:nth-child(2) {
+  margin-bottom: 36px;
+}
+
+#login-form input::placeholder {
+  opacity: 0.9;
+}
+
+#login-form input:focus {
+  /* submit타입 input은 border 자체가 없으므로 아래 css 적용x */
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  border-radius: 8px;
+  background-color: var(--yellow);
+  cursor: pointer;
+}
+
+#login-form a {
+  text-align: center;
+  margin-top: 28px;
+}
