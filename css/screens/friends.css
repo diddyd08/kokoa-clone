@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     padding: 16px 0px;
 }
 
@@ -13,7 +13,7 @@
 .friends-screen__channel-header {
     display: flex;
     justify-content: space-between;
-    color: #A2A2A2;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: var(--grey);
+    border-top: var(--main-border);
     padding: 16px 0px;
 }
