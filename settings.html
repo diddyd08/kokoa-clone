@@ -1,1 +1,91 @@
-<div>Settings Screen</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>More - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/47938a599e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+            <i class="fa-solid fa-chevron-left fa-2xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </div>
+    </header>
+
+    <!-- Main Screen -->
+    <main class="main-screen">
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <i class="fa-solid fa-bullhorn fa-xl"></i>
+                <span class="settings__title">Notices</span>
+            </li>
+            <li class="settings__setting">
+                <i class="fa-solid fa-flask fa-xl"></i>
+                <span class="settings__title">Kakao Lab</span>
+            </li>
+            <li class="settings__setting">
+                <i class="fa-solid fa-circle-info fa-xl"></i>
+                <span class="settings__title">Version</span>
+                <span class="settings__subtitle">Latest Version</span>
+            </li>
+        </ul>
+    </main>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation-bar">
+      <ul class="navigation-bar__list">
+        <li class="navigation-bar__button">
+          <a class="navigation-bar__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2xl"></i>
+          </a>
+        </li>
+        <li class="navigation-bar__button">
+          <a class="navigation-bar__link" href="chats.html">
+            <i class="fa-regular fa-comment fa-2xl"></i>
+          </a>
+        </li>
+        <li class="navigation-bar__button">
+          <a class="navigation-bar__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+          </a>
+        </li>
+        <li class="navigation-bar__button">
+          <a class="navigation-bar__link" href="more.html">
+            <span class="navigation-bar__more-notification"></span>
+            <i class="fa-solid fa-ellipsis fa-2xl"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

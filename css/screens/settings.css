@@ -1,0 +1,28 @@
+.settings-list {
+  padding: 32px 0px;
+  border-bottom: 1px solid var(--main-border);
+  border-bottom: var(--main-border);
+}
+
+.settings__setting {
+    display: flex;
+    align-items: center;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.1);
+}
+
+.settings__setting i {
+    opacity: 0.8;
+}
+
+.settings__title {
+  font-size: 24px;
+  margin-left: 24px;
+}
+
+.settings__subtitle {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: auto;
+}
