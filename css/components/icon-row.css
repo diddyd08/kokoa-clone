@@ -26,6 +26,6 @@
     color: rgba(0, 0, 0, 0.7);
 }
 
-#two-items-row {
-    width: 38vw;
+.visibility-hidden {
+    visibility: hidden;
 }

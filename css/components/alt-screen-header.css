@@ -1,21 +1,24 @@
 .alt-header {
     margin-top: 48px;
-    padding: 0px var(--horizontal-space);
+    padding: 12px var(--horizontal-space);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .alt-header__column:first-child {
-    margin-right: auto;
+    flex: 1;
 }
 
 .alt-header__column:nth-child(2) {
+    flex: 1;
     text-align: center;
 }
 
 .alt-header__column:last-child {
-    margin-left: auto;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end
 }
 
 .alt-header__column a {
@@ -26,4 +29,8 @@
 .alt-header__title {
     font-size: 28px;
     font-weight: 600;
+}
+
+.alt-header__column--two-icons i:last-child {
+    margin-left: 24px;
 }

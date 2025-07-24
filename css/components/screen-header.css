@@ -19,11 +19,6 @@
     position: relative;
 }
 
-#relative-father a {
-    color: black;
-    text-decoration: none;
-}
-
 .screen-header__more-notification {
     background-color: tomato;
     width: 6px;
