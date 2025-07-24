@@ -24,10 +24,23 @@
   position: relative;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(90deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .navigation-bar__chat-notification {
   position: absolute;
   top: -10px;
   right: -14px;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }
 
 .navigation-bar__more-notification {
@@ -40,3 +53,30 @@
     right: -10px;
 }
 
+@keyframes appearButtonAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.navigation-bar__button {
+  transform: translateY(50px);
+  opacity: 0;
+  animation: appearButtonAnimation 0.5s ease-in-out forwards;
+}
+
+.navigation-bar__button:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.navigation-bar__button:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.navigation-bar__button:nth-child(4) {
+  animation-delay: 0.9s;
+}
