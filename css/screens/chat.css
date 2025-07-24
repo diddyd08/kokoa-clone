@@ -144,6 +144,7 @@
     align-items: center;
     padding: 4px 16px;
     box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
 }
 
 .reply__column:first {
@@ -201,7 +202,7 @@
   transition: opacity 0.3s ease-in-out;
 }
 
-.reply:focus-within input {
+.reply__column input:focus {
   width: 92vw;
   transform: translateX(-56px) translateY(-80px);
 }
